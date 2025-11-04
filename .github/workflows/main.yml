@@ -28,7 +28,7 @@ jobs:
       run: npx playwright install --with-deps
 
     - name: Run Playwright tests
-      run: npx playwright test
+      run: npx playwright test --headed
 
     - name: Upload Playwright HTML report
       uses: actions/upload-artifact@v4
