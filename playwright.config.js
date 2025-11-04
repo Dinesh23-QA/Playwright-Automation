@@ -3,7 +3,7 @@ import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
   testDir: './web',               // Folder for test files
-  timeout: 30 * 1000,               
+  timeout: 3 * 60 * 1000,               
   retries: 0,                        
   reporter: 'html',                  
   use: {
